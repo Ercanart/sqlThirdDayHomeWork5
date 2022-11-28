@@ -27,7 +27,7 @@ public class Main {
 //		
 //		SELECT * from Products where categoryId=1
 //		SELECT * from Products where categoryId=1 or categoryId=3
-//		Or : ya da (Çağırılan    iki bilgiden birisi de yeterli olabilir)
+//		Or : ya da (Çağırılan iki bilgiden birisi de yeterli olabilir)
 //		
 //		SELECT * from Products where categoryId=1 and Price>=10
 //		And ( Çağırılan iki bilgi de istenir)
@@ -92,12 +92,7 @@ public class Main {
 //		on p.ProductId = od.ProductId
 //		inner join Orders o 
 //		on o.orderId = od.orderId
-//		İki ayrı tablodaki eşit olan dataları çağırdık.
-
-
-
-
-		
+//		İki ayrı tablodaki eşit olan dataları çağırdık.		
 	}
 
 }
